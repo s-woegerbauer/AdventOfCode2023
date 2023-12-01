@@ -9,8 +9,9 @@ namespace AdventOfCode2023
 
             /*
             string[] input = InputOutputHelper.GetInput(false, "01");
-            PartTwo(true, input);
+            PartTwo(false, input);
             */
+            
         }
 
         public static void PartOne(bool isTest, string[] input)

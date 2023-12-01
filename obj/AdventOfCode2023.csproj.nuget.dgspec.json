@@ -1,32 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ToDelete\\AdventOfCode2023\\AdventOfCode2023.csproj": {}
+    "D:\\OneDrive - HTBLA Leonding\\Dokumente\\GitHub\\AdventOfCode2023\\AdventOfCode2023.csproj": {}
   },
   "projects": {
-    "D:\\ToDelete\\AdventOfCode2023\\AdventOfCode2023.csproj": {
+    "D:\\OneDrive - HTBLA Leonding\\Dokumente\\GitHub\\AdventOfCode2023\\AdventOfCode2023.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ToDelete\\AdventOfCode2023\\AdventOfCode2023.csproj",
+        "projectUniqueName": "D:\\OneDrive - HTBLA Leonding\\Dokumente\\GitHub\\AdventOfCode2023\\AdventOfCode2023.csproj",
         "projectName": "AdventOfCode2023",
-        "projectPath": "D:\\ToDelete\\AdventOfCode2023\\AdventOfCode2023.csproj",
+        "projectPath": "D:\\OneDrive - HTBLA Leonding\\Dokumente\\GitHub\\AdventOfCode2023\\AdventOfCode2023.csproj",
         "packagesPath": "C:\\Users\\simsi\\.nuget\\packages\\",
-        "outputPath": "D:\\ToDelete\\AdventOfCode2023\\obj\\",
+        "outputPath": "D:\\OneDrive - HTBLA Leonding\\Dokumente\\GitHub\\AdventOfCode2023\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\simsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +42,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -55,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

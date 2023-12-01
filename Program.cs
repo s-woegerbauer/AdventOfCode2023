@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            //DayOne.Solution();
+            DayOne.Solution();
             //DayTwo.Solution();
             //DayThree.Solution();
             //DayFour.Solution();

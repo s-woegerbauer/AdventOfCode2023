@@ -12,11 +12,11 @@ namespace AdventOfCode2023
         {
             if(isTest)
             {
-                return File.ReadAllLines(Directory.GetCurrentDirectory().Replace("\\bin\\Debug\\net7.0", "") + "\\" + day + "\\testInput.txt");
+                return File.ReadAllLines(Directory.GetCurrentDirectory().Replace("\\bin\\Debug\\net6.0", "") + "\\" + day + "\\testInput.txt");
             }
             else
             {
-                return File.ReadAllLines(Directory.GetCurrentDirectory().Replace("\\bin\\Debug\\net7.0", "") + "\\" + day + "\\input.txt");
+                return File.ReadAllLines(Directory.GetCurrentDirectory().Replace("\\bin\\Debug\\net6.0", "") + "\\" + day + "\\input.txt");
             }
         }
 
@@ -27,7 +27,7 @@ namespace AdventOfCode2023
                 Console.WriteLine("Test:");
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine(output.ToString());
-                Console.ForegroundColor = ConsoleColor.Black;
+                Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine();
             }
             else
@@ -35,7 +35,7 @@ namespace AdventOfCode2023
                 Console.WriteLine("Result:");
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine(output.ToString());
-                Console.BackgroundColor = ConsoleColor.White;
+                Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine();
             }
         }

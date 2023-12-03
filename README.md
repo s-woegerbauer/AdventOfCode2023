@@ -17,3 +17,10 @@ Breakdown of the days:
 	- Overall: Parsing could have been way better, pretty happy with part 2 though:
 		- 17 min -> 3729
 		- 18 min -> 2542
+
+3.
+	- Part 1: I just had too many errors, which i could not find, so I restarted from the beginning, which costed approximately 40 min :(
+	- Part 2: Just had to change the LINQ statement, took about 3 min
+	- Overall: Part 1 was just really bad, Part 2 was easy, but did not help much
+		- 58 min -> 6693
+		- 60 min -> 4288

@@ -1,107 +1,99 @@
-namespace AdventOfCode2023
+namespace AdventOfCode2023;
+
+internal class DayTwo
 {
-    internal class DayTwo
+    public static void Solution()
     {
-        public static void Solution()
+        var testInput = InputOutputHelper.GetInput(true, "02");
+        PartOne(true, testInput);
+
+        var input = InputOutputHelper.GetInput(false, "02");
+        PartOne(false, input);
+
+        PartTwo(true, testInput);
+        PartTwo(false, input);
+    }
+
+    public static void PartOne(bool isTest, string[] input)
+    {
+        var result = 0;
+        var id = 1;
+
+        foreach (var line in input)
         {
-            string[] testInput = InputOutputHelper.GetInput(true, "02");
-            PartOne(true, testInput);
+            var splitted = line.Split(": ")[1].Split("; ");
+            var revealed = new Dictionary<string, int>();
+            revealed.Add("blue", 0);
+            revealed.Add("red", 0);
+            revealed.Add("green", 0);
 
-            string[] input = InputOutputHelper.GetInput(false, "02");
-            PartOne(false, input);
-
-            PartTwo(true, testInput);
-            PartTwo(false, input);
-        }
-
-        public static void PartOne(bool isTest, string[] input)
-        {
-            int result = 0;
-            int id = 1;
-
-            foreach (string line in input)
+            for (var i = 0; i < splitted.Length; i++)
             {
-                string[] splitted = line.Split(": ")[1].Split("; ");
-                Dictionary<string, int> revealed = new Dictionary<string, int>();
-                revealed.Add("blue", 0);
-                revealed.Add("red", 0);
-                revealed.Add("green", 0);
+                var current = new Dictionary<string, int>();
+                current.Add("blue", 0);
+                current.Add("red", 0);
+                current.Add("green", 0);
+                var currentRevealed = splitted[i].Split(", ");
 
-                for (int i = 0; i < splitted.Length; i++)
-                {
-                    Dictionary<string, int> current = new Dictionary<string, int>();
-                    current.Add("blue", 0);
-                    current.Add("red", 0);
-                    current.Add("green", 0);
-                    string[] currentRevealed = splitted[i].Split(", ");
-
-                    foreach (string rev in currentRevealed)
+                foreach (var rev in currentRevealed)
+                    if (!rev.StartsWith("Game"))
                     {
-                        if (!rev.StartsWith("Game"))
-                        {
-                            string color = rev.Split(' ')[1];
-                            int amount = int.Parse(rev.Split(' ')[0]);
-                            current[color] = amount;
-                        }
+                        var color = rev.Split(' ')[1];
+                        var amount = int.Parse(rev.Split(' ')[0]);
+                        current[color] = amount;
                     }
 
-                    revealed["blue"] = Math.Max(revealed["blue"], current["blue"]);
-                    revealed["red"] = Math.Max(revealed["red"], current["red"]);
-                    revealed["green"] = Math.Max(revealed["green"], current["green"]);
-                }
-
-                if (revealed["blue"] <= 14 && revealed["green"] <= 13 && revealed["red"] <= 12)
-                {
-                    result += id;
-                }
-
-                id++;
+                revealed["blue"] = Math.Max(revealed["blue"], current["blue"]);
+                revealed["red"] = Math.Max(revealed["red"], current["red"]);
+                revealed["green"] = Math.Max(revealed["green"], current["green"]);
             }
 
-            InputOutputHelper.WriteOutput<int>(isTest, result);
+            if (revealed["blue"] <= 14 && revealed["green"] <= 13 && revealed["red"] <= 12) result += id;
+
+            id++;
         }
 
-        public static void PartTwo(bool isTest, string[] input)
+        InputOutputHelper.WriteOutput(isTest, result);
+    }
+
+    public static void PartTwo(bool isTest, string[] input)
+    {
+        var result = 0;
+        var id = 1;
+
+        foreach (var line in input)
         {
-            int result = 0;
-            int id = 1;
+            var splitted = line.Split(": ")[1].Split("; ");
+            var revealed = new Dictionary<string, int>();
+            revealed.Add("blue", 0);
+            revealed.Add("red", 0);
+            revealed.Add("green", 0);
 
-            foreach (string line in input)
+            for (var i = 0; i < splitted.Length; i++)
             {
-                string[] splitted = line.Split(": ")[1].Split("; ");
-                Dictionary<string, int> revealed = new Dictionary<string, int>();
-                revealed.Add("blue", 0);
-                revealed.Add("red", 0);
-                revealed.Add("green", 0);
+                var current = new Dictionary<string, int>();
+                current.Add("blue", 0);
+                current.Add("red", 0);
+                current.Add("green", 0);
+                var currentRevealed = splitted[i].Split(", ");
 
-                for (int i = 0; i < splitted.Length; i++)
-                {
-                    Dictionary<string, int> current = new Dictionary<string, int>();
-                    current.Add("blue", 0);
-                    current.Add("red", 0);
-                    current.Add("green", 0);
-                    string[] currentRevealed = splitted[i].Split(", ");
-
-                    foreach (string rev in currentRevealed)
+                foreach (var rev in currentRevealed)
+                    if (!rev.StartsWith("Game"))
                     {
-                        if (!rev.StartsWith("Game"))
-                        {
-                            string color = rev.Split(' ')[1];
-                            int amount = int.Parse(rev.Split(' ')[0]);
-                            current[color] = amount;
-                        }
+                        var color = rev.Split(' ')[1];
+                        var amount = int.Parse(rev.Split(' ')[0]);
+                        current[color] = amount;
                     }
 
-                    revealed["blue"] = Math.Max(revealed["blue"], current["blue"]);
-                    revealed["red"] = Math.Max(revealed["red"], current["red"]);
-                    revealed["green"] = Math.Max(revealed["green"], current["green"]);
-                }
-
-                result += revealed["blue"] * revealed["red"] * revealed["green"];
+                revealed["blue"] = Math.Max(revealed["blue"], current["blue"]);
+                revealed["red"] = Math.Max(revealed["red"], current["red"]);
+                revealed["green"] = Math.Max(revealed["green"], current["green"]);
             }
 
-
-            InputOutputHelper.WriteOutput<int>(isTest, result);
+            result += revealed["blue"] * revealed["red"] * revealed["green"];
         }
+
+
+        InputOutputHelper.WriteOutput(isTest, result);
     }
 }

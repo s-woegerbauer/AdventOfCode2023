@@ -1,32 +1,31 @@
-namespace AdventOfCode2023
+namespace AdventOfCode2023;
+
+internal class DayTwentyFive
 {
-    internal class DayTwentyFive
+    public static void Solution()
     {
-        public static void Solution()
-        {
-            string[] testInput = InputOutputHelper.GetInput(true, "01");
-            PartOne(true, testInput);
+        var testInput = InputOutputHelper.GetInput(true, "01");
+        PartOne(true, testInput);
 
-            /*
-            string[] input = InputOutputHelper.GetInput(false, "01");
-            PartTwo(true, input);
-            */
-        }
+        /*
+        string[] input = InputOutputHelper.GetInput(false, "01");
+        PartTwo(true, input);
+        */
+    }
 
-        public static void PartOne(bool isTest, string[] input)
-        {
-            int result = 0;
+    public static void PartOne(bool isTest, string[] input)
+    {
+        var result = 0;
 
 
-            InputOutputHelper.WriteOutput<int>(isTest, result);
-        }
+        InputOutputHelper.WriteOutput(isTest, result);
+    }
 
-        public static void PartTwo(bool isTest, string[] input)
-        {
-            int result = 0;
+    public static void PartTwo(bool isTest, string[] input)
+    {
+        var result = 0;
 
 
-            InputOutputHelper.WriteOutput<int>(isTest, result);
-        }
+        InputOutputHelper.WriteOutput(isTest, result);
     }
 }

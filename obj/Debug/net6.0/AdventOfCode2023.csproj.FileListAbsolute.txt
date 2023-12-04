@@ -13,3 +13,18 @@ D:\OneDrive - HTBLA Leonding\Dokumente\GitHub\AdventOfCode2023\obj\Debug\net6.0\
 D:\OneDrive - HTBLA Leonding\Dokumente\GitHub\AdventOfCode2023\obj\Debug\net6.0\AdventOfCode2023.pdb
 D:\OneDrive - HTBLA Leonding\Dokumente\GitHub\AdventOfCode2023\obj\Debug\net6.0\AdventOfCode2023.genruntimeconfig.cache
 D:\OneDrive - HTBLA Leonding\Dokumente\GitHub\AdventOfCode2023\obj\Debug\net6.0\ref\AdventOfCode2023.dll
+C:\Users\simsi\Documents\GitHub\AdventOfCode2023\bin\Debug\net6.0\AdventOfCode2023.exe
+C:\Users\simsi\Documents\GitHub\AdventOfCode2023\bin\Debug\net6.0\AdventOfCode2023.deps.json
+C:\Users\simsi\Documents\GitHub\AdventOfCode2023\bin\Debug\net6.0\AdventOfCode2023.runtimeconfig.json
+C:\Users\simsi\Documents\GitHub\AdventOfCode2023\bin\Debug\net6.0\AdventOfCode2023.dll
+C:\Users\simsi\Documents\GitHub\AdventOfCode2023\bin\Debug\net6.0\AdventOfCode2023.pdb
+C:\Users\simsi\Documents\GitHub\AdventOfCode2023\obj\Debug\net6.0\AdventOfCode2023.csproj.AssemblyReference.cache
+C:\Users\simsi\Documents\GitHub\AdventOfCode2023\obj\Debug\net6.0\AdventOfCode2023.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simsi\Documents\GitHub\AdventOfCode2023\obj\Debug\net6.0\AdventOfCode2023.AssemblyInfoInputs.cache
+C:\Users\simsi\Documents\GitHub\AdventOfCode2023\obj\Debug\net6.0\AdventOfCode2023.AssemblyInfo.cs
+C:\Users\simsi\Documents\GitHub\AdventOfCode2023\obj\Debug\net6.0\AdventOfCode2023.csproj.CoreCompileInputs.cache
+C:\Users\simsi\Documents\GitHub\AdventOfCode2023\obj\Debug\net6.0\AdventOfCode2023.dll
+C:\Users\simsi\Documents\GitHub\AdventOfCode2023\obj\Debug\net6.0\refint\AdventOfCode2023.dll
+C:\Users\simsi\Documents\GitHub\AdventOfCode2023\obj\Debug\net6.0\AdventOfCode2023.pdb
+C:\Users\simsi\Documents\GitHub\AdventOfCode2023\obj\Debug\net6.0\AdventOfCode2023.genruntimeconfig.cache
+C:\Users\simsi\Documents\GitHub\AdventOfCode2023\obj\Debug\net6.0\ref\AdventOfCode2023.dll

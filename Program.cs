@@ -7,8 +7,8 @@ internal class Program
         //DayOne.Solution();
         //DayTwo.Solution();
         //DayThree.Solution();
-        DayFour.Solution();
-        //DayFive.Solution();
+        //DayFour.Solution();
+        DayFive.Solution();
         //DaySix.Solution();
         //DaySeven.Solution();
         //DayEight.Solution();

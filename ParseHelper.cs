@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace ParseHelper;
+namespace AdventOfCode2023;
 
 public static class ParseHelper
 {

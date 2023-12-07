@@ -37,6 +37,20 @@ Breakdown of the days:
 5.
    - Part 1: Had a bit of trouble parsing the input and mapping it.
    - Part 2: Tried to brute force it at first, didn't run fast enough, so I had to write it from the beginning
-   - Overall: hard day, bad solution -> bad day :(
+   - Overall: Hard day, bad solution -> bad day :(
        - 73 min -> 9417
        - 275 min -> 9557
+
+6.
+   - Part 1: Didn't understand the task correctly at first.
+   - Part 2: Nothing special ...
+   - Overall: Solid
+      - 32 min -> 9503
+      - 39 min -> 8832
+     
+7.
+   - Part 1: Tried to sort it by ascii first, because I didn't read carefully.
+   - Part 2: Just had to change a few things for the joker, because of the good base from part 1.
+   - Overall: Pretty Happy with my solution
+      - 46 min -> 5092
+      - 51 min -> 2700

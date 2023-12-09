@@ -88,6 +88,8 @@
       <workItem from="1701778423180" duration="457000" />
       <workItem from="1701837906029" duration="3256000" />
       <workItem from="1701924348002" duration="4511000" />
+      <workItem from="1701935957321" duration="817000" />
+      <workItem from="1702097064284" duration="5181000" />
     </task>
     <servers />
   </component>
@@ -96,5 +98,29 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/09/DayNine.cs</url>
+          <line>44</line>
+          <properties documentPath="C:\Users\simsi\Documents\GitHub\AdventOfCode2023\09\DayNine.cs" initialLine="44" containingFunctionPresentation="Method 'PartOne'">
+            <startOffsets>
+              <option value="1265" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1314" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Frame#AdventOfCode2023.DayNine.PartOne" memberName="result" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

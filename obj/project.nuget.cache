@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "t4kZZm+M31oTaLTlywvGboYZHDl2GEACWZQuJJGquiVfz7ul8oyP/upAcdlcXTKCUpDx0OZ6PGh/jQbSoIdtmg==",
+  "dgSpecHash": "RYt8p+zx8AhYZH9w2ilsYFdyUoslkDWKTNZ22yBgzM2ZcavCsVck9coSubixrVdclKT9QGVTB2yIfK1maL/H9w==",
   "success": true,
   "projectFilePath": "C:\\Users\\simsi\\Documents\\GitHub\\AdventOfCode2023\\AdventOfCode2023.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\simsi\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
-    "C:\\Users\\simsi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
-    "C:\\Users\\simsi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512",
-    "C:\\Users\\simsi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.20\\microsoft.netcore.app.host.win-x64.6.0.20.nupkg.sha512"
+    "C:\\Users\\simsi\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\simsi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\simsi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\simsi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
   ],
   "logs": []
 }

@@ -35,15 +35,9 @@ internal class DayFour
             var score = 0;
 
             for (var i = 0; i < winningStr.Length; i++)
-            {
-                for (var j = 0; j < haveStr.Length; j++)
-                {
-                    if (winning[i] == have[j])
-                    {
-                        score = score == 0 ? 1 : score * 2;
-                    }
-                }
-            }
+            for (var j = 0; j < haveStr.Length; j++)
+                if (winning[i] == have[j])
+                    score = score == 0 ? 1 : score * 2;
 
             result += score;
         }
@@ -90,20 +84,11 @@ internal class DayFour
             var score = 0;
 
             for (var i = 0; i < NUM_WIN; i++)
-            {
-                for (var j = 0; j < NUM_HAVE; j++)
-                {
-                    if (winning[i] == have[j])
-                    {
-                        score++;
-                    }
-                }
-            }
+            for (var j = 0; j < NUM_HAVE; j++)
+                if (winning[i] == have[j])
+                    score++;
 
-            for (var i = 1; i <= score; i++)
-            {
-                copies[cardNumber + i] += copies[cardNumber];
-            }
+            for (var i = 1; i <= score; i++) copies[cardNumber + i] += copies[cardNumber];
 
             result += copies[cardNumber];
         }

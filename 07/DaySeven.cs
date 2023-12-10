@@ -45,10 +45,10 @@ internal class DaySeven
 public class Hand : IComparable
 {
     public int Bid;
-    public int Strength;
     public int[] Cards = new int[5];
     public int[] Frequences = new int[13];
     public string[] Ranks = { "A", "K", "Q", "J", "T", "9", "8", "7", "6", "5", "4", "3", "2" };
+    public int Strength;
 
     public Hand(string line, int bid, bool part1)
     {
@@ -74,10 +74,7 @@ public class Hand : IComparable
     public int CompareTo(object obj)
     {
         var other = (Hand)obj;
-        if (Strength != other.Strength)
-        {
-            return Strength - other.Strength;
-        }
+        if (Strength != other.Strength) return Strength - other.Strength;
 
         for (var i = 0; i < Cards.Length; i++)
             if (Cards[i] != other.Cards[i])

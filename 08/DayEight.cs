@@ -30,7 +30,7 @@ internal class DayEight
         var dict = ParseInput(input, out var moves);
 
         result = dict.Keys.Where(x => x[2] == 'A')
-            .Select(x => StepsTwo(x, dict,moves))
+            .Select(x => StepsTwo(x, dict, moves))
             .SelectMany(x => Factor(x).Where(w => w != x).Select(x => (long)x))
             .Distinct()
             .Aggregate((x, y) => x * y);

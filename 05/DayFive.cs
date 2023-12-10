@@ -24,15 +24,11 @@ public class DayFive
         var seedsData = seedsAndMaps[0];
         var mapData = seedsAndMaps.Skip(1).ToArray();
 
-        foreach (string line in mapData)
-        {
-            Maps.Add(ParseMap(line));
-        }
-        
+        foreach (var line in mapData) Maps.Add(ParseMap(line));
+
         var minimumResult = seedsData.Split().Skip(1).Select(long.Parse).Min(seed => ProcessSeed(seed));
 
-        
-        
+
         InputOutputHelper.WriteOutput(isTest, minimumResult);
     }
 
@@ -125,22 +121,15 @@ public class DayFive
     private static long LookupValue(long value, List<(long source, long destination, long range)> mapData)
     {
         foreach (var mapEntry in mapData)
-        {
             if (mapEntry.source <= value && value < mapEntry.source + mapEntry.range)
-            {
                 return value - mapEntry.source + mapEntry.destination;
-            }
-        }
 
         return value;
     }
 
     private static long ProcessSeed(long seed)
     {
-        foreach (var map in Maps)
-        {
-            seed = LookupValue(seed, map);
-        }
+        foreach (var map in Maps) seed = LookupValue(seed, map);
 
         return seed;
     }

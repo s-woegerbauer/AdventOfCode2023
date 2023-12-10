@@ -18,7 +18,6 @@ C:\Users\simsi\Documents\GitHub\AdventOfCode2023\bin\Debug\net6.0\AdventOfCode20
 C:\Users\simsi\Documents\GitHub\AdventOfCode2023\bin\Debug\net6.0\AdventOfCode2023.runtimeconfig.json
 C:\Users\simsi\Documents\GitHub\AdventOfCode2023\bin\Debug\net6.0\AdventOfCode2023.dll
 C:\Users\simsi\Documents\GitHub\AdventOfCode2023\bin\Debug\net6.0\AdventOfCode2023.pdb
-C:\Users\simsi\Documents\GitHub\AdventOfCode2023\obj\Debug\net6.0\AdventOfCode2023.csproj.AssemblyReference.cache
 C:\Users\simsi\Documents\GitHub\AdventOfCode2023\obj\Debug\net6.0\AdventOfCode2023.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\simsi\Documents\GitHub\AdventOfCode2023\obj\Debug\net6.0\AdventOfCode2023.AssemblyInfoInputs.cache
 C:\Users\simsi\Documents\GitHub\AdventOfCode2023\obj\Debug\net6.0\AdventOfCode2023.AssemblyInfo.cs

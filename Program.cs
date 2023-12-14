@@ -14,10 +14,10 @@ internal class Program
         //DayEight.Solution();
         //DayNine.Solution();
         //DayTen.Solution();
-        DayEleven.Solution();
+        //DayEleven.Solution();
         //DayTwelve.Solution();
         //DayThirteen.Solution();
-        //DayFourteen.Solution();
+        DayFourteen.Solution();
         //DayFifteen.Solution();
         //DaySixteen.Solution();
         //DaySeventeen.Solution();

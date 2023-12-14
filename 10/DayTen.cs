@@ -106,7 +106,8 @@ internal class DayTen
         CalculateInnerPathCount(grid, startX, startY, validDirections, isTest);
     }
 
-    private static void CalculateInnerPathCount(string[] grid, int startX, int startY, List<int> validDirections, bool isTest)
+    private static void CalculateInnerPathCount(string[] grid, int startX, int startY, List<int> validDirections,
+        bool isTest)
     {
         var rows = grid.Length;
         var columns = grid[0].Length;
@@ -140,7 +141,7 @@ internal class DayTen
             var inside = false;
             for (var j = 0; j < columns; j++)
             {
-                ConsoleColor color = inside ? ConsoleColor.Green: ConsoleColor.White;
+                var color = inside ? ConsoleColor.Green : ConsoleColor.White;
 
                 Console.ForegroundColor = color;
                 if (outputGrid[i][j] != 0)

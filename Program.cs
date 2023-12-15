@@ -17,8 +17,8 @@ internal class Program
         //DayEleven.Solution();
         //DayTwelve.Solution();
         //DayThirteen.Solution();
-        DayFourteen.Solution();
-        //DayFifteen.Solution();
+        //DayFourteen.Solution();
+        DayFifteen.Solution();
         //DaySixteen.Solution();
         //DaySeventeen.Solution();
         //DayEightteen.Solution();

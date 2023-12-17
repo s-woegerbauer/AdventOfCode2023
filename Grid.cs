@@ -1,4 +1,4 @@
-﻿namespace AdventOfCode2023; 
+﻿namespace AdventOfCode2023;
 
 public class Grid<T>
 {
@@ -301,4 +301,10 @@ public class Grid<T>
         if (string.IsNullOrWhiteSpace(input)) return default!;
         return (T)Convert.ChangeType(input, typeof(T));
     }
+}
+
+public class PathInfo
+{
+    public List<(int, int)> Path { get; set; }
+    public List<int> Values { get; set; }
 }

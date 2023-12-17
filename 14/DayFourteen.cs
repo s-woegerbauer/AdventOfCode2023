@@ -46,7 +46,7 @@ internal class DayFourteen
 
         return count;
     }
-    
+
     private static Grid<char> Rotate(Grid<char> grid)
     {
         var verticalLength = grid.VerticalLength;

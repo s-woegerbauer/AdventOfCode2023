@@ -18,6 +18,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c6ad457575d35dcbff26c9a5e3fb1d92f1d3c55f25ef6ebf475367b5d8/List.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c95dcc58313213285a3bb76c2a3cedab84d293d1b4f5693c7b33d0f2648e5/Convert.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e7e231682be8652744726acc6de35323daa68061429db55e0c251114902f60/String.Manipulation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f07ca47461e08ef616e269aab74b30771aa9a6865183eb36d49e5f8db8c6cef/Number.Formatting.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/13/DayThirteen.cs" root0="FORCE_HIGHLIGHTING" />
@@ -105,7 +106,12 @@
       <workItem from="1702554315964" duration="34000" />
       <workItem from="1702615680151" duration="3771000" />
       <workItem from="1702701963721" duration="6150000" />
-      <workItem from="1702788448694" duration="4049000" />
+      <workItem from="1702788448694" duration="4492000" />
+      <workItem from="1702874880872" duration="5198000" />
+      <workItem from="1702883014987" duration="802000" />
+      <workItem from="1702961312493" duration="12085000" />
+      <workItem from="1702997057670" duration="1392000" />
+      <workItem from="1702998499748" duration="407000" />
     </task>
     <servers />
   </component>

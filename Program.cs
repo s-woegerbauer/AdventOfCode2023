@@ -20,9 +20,9 @@ internal class Program
         //DayFourteen.Solution();
         //DayFifteen.Solution();
         //DaySixteen.Solution();
-        DaySeventeen.Solution();
+        //DaySeventeen.Solution();
         //DayEightteen.Solution();
-        //DayNineteen.Solution();
+        DayNineteen.Solution();
         //DayTwenty.Solution();
         //DayTwentyone.Solution();
         //DayTwentytwo.Solution();
